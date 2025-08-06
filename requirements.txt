@@ -1,0 +1,14 @@
+pandas
+seaborn
+numpy
+matplotlib
+scikit-learn
+plotly
+jupyterlab
+imblearn
+yellowbrick
+statsmodels
+scipy
+
+# To install the required packages, run the following command:
+# pip install -r requirements.txt
