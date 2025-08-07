@@ -1,30 +1,17 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.pyc
-*.env
-*.venv
-env/
-venv/
-ENV/
-build/
-dist/
-*.egg-info/
-*.egg
+# Archivos de sistema
+.DS_Store
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Entornos virtuales
+/venv/
+/.venv/
+/env/
+/.env/
 
-# VS Code
-.vscode/
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
 
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
+# Archivos generados
+*.png
+*.pkl
 
-# Otros
-*.log
-*.sqlite3
+
