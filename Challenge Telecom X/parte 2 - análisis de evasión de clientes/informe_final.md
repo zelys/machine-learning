@@ -18,15 +18,15 @@ El propósito de este análisis fue construir un modelo predictivo capaz de iden
 
 Se entrenaron y compararon los siguientes modelos:
 
-| Modelo                          | Accuracy  | Recall (Clase 1) | F1-Score (Clase 1) | AUC      |
-| ------------------------------- | --------- | ---------------- | ------------------ | -------- |
-| Regresión Logística             | 80.1%     | 53.2%            | 57.8%              | 0.84     |
-| Árbol de Decisión               | 72.1%     | 46.5%            | 46.2%              | 0.65     |
-| Random Forest (SMOTE)           | 76.8%     | 55.9%            | 55.3%              | 0.81     |
-| XGBoost (SMOTE)                 | 75.7%     | 57.5%            | 54.9%              | 0.81     |
-| ✅ Random Forest **Optimizado** | ✅ 77.72% | ✅ 66.58%        | ✅ 60.58%          | ✅ 0.826 |
+| Modelo                          | Accuracy | Recall (Clase 1) | F1-Score (Clase 1) | AUC      |
+| ------------------------------- | -------- | ---------------- | ------------------ | -------- |
+| Regresión Logística             | 80%      | 53.2%            | 57.8%              | 0.84     |
+| Árbol de Decisión               | 72%      | 46.5%            | 46.1%              | 0.65     |
+| Random Forest (SMOTE)           | 76.9%    | 56.4%            | 55.7%              | 0.81     |
+| XGBoost (SMOTE)                 | 75.4%    | 54.8%            | 53.4%              | 0.80     |
+| ✅ Random Forest **Optimizado** | ✅ 77.6% | ✅ 67.1%         | ✅ 60.7%           | ✅ 0.825 |
 
-El modelo final seleccionado fue **Random Forest optimizado**, debido a su mejor balance entre precisión y recall, y su mayor capacidad de discriminación (AUC = 0.826).
+El modelo final seleccionado fue **Random Forest optimizado**, debido a su mejor balance entre precisión y recall, y su mayor capacidad de discriminación (AUC = 0.825).
 
 ---
 
